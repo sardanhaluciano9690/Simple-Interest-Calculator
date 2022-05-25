@@ -23,3 +23,4 @@ document.getElementById ('num4').innerHTML ="in the year of: "+ endYear;
 // document.getElementById ('num1').innerHTML ="Compound Interest : "+ci;
 }
 
+// after comminting

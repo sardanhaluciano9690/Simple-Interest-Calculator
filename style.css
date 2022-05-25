@@ -53,8 +53,13 @@ body {
     height: auto;
 margin-left: 19px;
 }
-#resultAfterButton , #num1, #num2, #num3, #num4{
+#num1, #num2, #num3, #num4{
     color: black;
+    /* background-color:#FFFF00; */
+   
 }
+
+
+
 
 /* after comminting */

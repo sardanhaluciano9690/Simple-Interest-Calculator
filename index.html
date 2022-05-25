@@ -23,20 +23,20 @@
  <div >
         <div id="container">   
             <div> Amount</div>
-            <div> <input type="currency" value="1000000" name="a" id="principal"/>  <br/></div>
+            <div> <input type="number" value="1000000"  id="principal"/>  <br/></div>
 
 
             <div>  Interest Rate </div>
 
             <div> 
                 <!-- <input type="range" value="12" > -->
-             <input type="range" maxlength="3" min="0.5" max="99.5" value="3.5" name="c"  id="third" oninput="this.nextElementSibling.value
-			 = this.value"/>   &NoBreak;     <output>3.5</output>%
+             <input type="range" maxlength="3" min="0" max="100" value="3.5"  id="rate" oninput="this.nextElementSibling.value
+			 = this.value"/>   &NoBreak;     <output>4</output>%
               
             </div>
           
             <div> No. of Years</div>
-            <div> <select id="second">
+            <div> <select id="years">
 
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -90,7 +90,7 @@
   </div>
   <p id="resultAfterButton"> 
 				                
-          <div id="num1"> </div>
+          <div id="num1" > </div>
           <div> </div>
           <div id="num2"> </div>
           <div > </div>

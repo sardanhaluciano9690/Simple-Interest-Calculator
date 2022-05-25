@@ -6,8 +6,15 @@ function compute()
 
 var p,t,r,si,ci = Number;
 p = document.getElementById ("principal").value;
-t = document.getElementById ("second").value;
-r = document.getElementById ("third").value;
+if (p <= 0){
+    alert("Please enter a positive value");
+}
+
+t = document.getElementById ("years").value;
+r = document.getElementById ("rate").value;
+if (r <= 0){
+    alert('Choose a number greater than zero');
+}
 si = parseInt((p*t*r)/100 );
 amount = p*Math.pow((1 +r/100),t );
 ci = amount-p;
